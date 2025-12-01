@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Retail Demand App")
+st.title("Retail Demand Forecasting & Inventory Optimization App")
 
 df = pd.read_csv("FMCG.csv")
 
