@@ -94,7 +94,7 @@ st.write(f"**Recommended Inventory Level:** {recommended_inventory:.2f} units")
 if stock_input < reorder_point:
     st.error("⚠️ Stock is below Reorder Point — Reorder Required!")
 else:
-    st.success("✅ Stock is sufficient — No immediate reorder needed.")
+    st.success("Stock is sufficient — No immediate reorder needed.")
 
 
 hist = df[df["sku"] == selected_sku].sort_values("date")
