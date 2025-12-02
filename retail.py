@@ -17,7 +17,7 @@ st.write("You selected:", selected_sku)
 
 row = df[df["sku"] == selected_sku].sort_values("date").iloc[-1]
 
-st.subheader("Product Details (Auto-filled)")
+st.subheader("Product Details")
 st.write("Brand:", row["brand"])
 st.write("Category:", row["category"])
 st.write("Segment:", row["segment"])
